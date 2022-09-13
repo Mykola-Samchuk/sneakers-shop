@@ -1,13 +1,13 @@
 import React from "react";
-import "./card-item.scss"
-import cardImg from "./img/img-1.jpg"
+import "./card-item.scss";
+import cardImg from "./img/img-1.jpg";
 
 export default function CardItem() {
   return (
     <>
       <div className="card">
         <div className="card-img">
-            <img src={cardImg} alt="sneakers-img" />
+          <img src={cardImg} alt="sneakers-img" />
         </div>
         <h5>Чоловічі кросівки Nike Blazer Mid Suede</h5>
         <div className="card-price">

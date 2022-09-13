@@ -5,9 +5,16 @@ import CardItem from "./components/CardItem/CardItem";
 function App() {
   return (
     <div className="wrapper">
+      
       <Header />
       <div className="content">
-        <h1 className="fw-700 title-mb-40">All Sneakers</h1>
+        <div className="item-wrapp">
+          <h1 className="fw-700">Всі кросівки</h1>
+          <div className="search-wrapp">
+            <input  placeholder="Пошук..." type="search" />
+          </div>
+        </div>
+
         <div className="card-wrapp">
           <CardItem />
           <CardItem />
